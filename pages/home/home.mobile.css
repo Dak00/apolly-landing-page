@@ -106,11 +106,12 @@ section {
 }
 
 .card__icons {
-	gap: 12px;
+	gap: 34px;
 }
 
 .blog__cards {
 	gap: 24px;
+	flex-direction: column;
 }
 
 .blog__text {
@@ -126,12 +127,18 @@ footer {
 	padding-bottom: 18px;
 }
 
-.footer__right {
-	gap: 24px;
+.footer__nav {
+	flex-direction: column;
+	gap: 60px;
 }
 
-.footer__logo > p {
-	width: 213px;
+.footer__right {
+	gap: 62px;
+	flex-direction: column;
+}
+
+.footer__logo > p:last-of-type {
+	width: 334px;
 	margin-bottom: 32px;
 }
 

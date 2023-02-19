@@ -19,6 +19,10 @@ nav a {
 	color: #232233;
 }
 
+.nav__burger {
+	display: none;
+}
+
 .nav__left > a:first-of-type {
 	font-weight: 600;
 	font-size: 20px;
@@ -115,6 +119,7 @@ section {
 
 .blog__cards {
 	gap: 30px;
+	flex-direction: row;
 }
 
 .blog__text {
@@ -132,9 +137,14 @@ footer {
 
 .footer__right {
 	gap: 66px;
+	flex-direction: row;
 }
 
-.footer__logo > p {
+.footer__nav {
+	flex-direction: row;
+}
+
+.footer__logo > p:last-of-type {
 	width: 334px;
 	margin-bottom: 40px;
 }

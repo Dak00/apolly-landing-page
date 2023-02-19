@@ -112,6 +112,7 @@ section {
 
 .blog__cards {
 	gap: 24px;
+	flex-direction: row;
 }
 
 .blog__text {
@@ -127,11 +128,16 @@ footer {
 	padding-bottom: 18px;
 }
 
-.footer__right {
-	gap: 24px;
+.footer__nav {
+	flex-direction: row;
 }
 
-.footer__logo > p {
+.footer__right {
+	gap: 24px;
+	flex-direction: row;
+}
+
+.footer__logo > p:last-of-type {
 	width: 213px;
 	margin-bottom: 32px;
 }
