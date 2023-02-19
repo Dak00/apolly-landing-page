@@ -9,6 +9,10 @@ header {
 	padding-bottom: 221px;
 }
 
+.prenav {
+	display: flex;
+}
+
 .nav__burger {
 	display: flex;
 	align-items: center;
@@ -29,6 +33,7 @@ header {
 }
 
 .hero__text > p:first-of-type {
+	font-weight: 700;
 	font-size: 31.25px;
 	line-height: 47px;
 }
@@ -46,6 +51,7 @@ header {
 .hero {
 	gap: 90px;
 	margin-top: 236px;
+	flex-direction: row;
 }
 
 .hero > img {
@@ -57,9 +63,21 @@ section {
 	padding-bottom: 80px;
 }
 
+.section__text > h1 {
+	font-weight: 700;
+	font-size: 31.25px;
+	line-height: 47px;
+}
+
+.section__text > p {
+	width: 450px;
+	margin: 18px 0 30px;
+}
+
 .team__cards {
 	gap: 24px;
 	margin-bottom: 80px;
+	flex-direction: row;
 }
 
 .team__card {
@@ -90,4 +108,45 @@ section {
 
 .card__icons {
 	gap: 12px;
+}
+
+.blog__cards {
+	gap: 24px;
+}
+
+.blog__text {
+	padding: 30px 18px;
+}
+
+.blog__text > p:last-of-type {
+	margin: 18px 0 40px;
+}
+
+footer {
+	padding-top: 47px;
+	padding-bottom: 18px;
+}
+
+.footer__right {
+	gap: 24px;
+}
+
+.footer__logo > p {
+	width: 213px;
+	margin-bottom: 32px;
+}
+
+.footer__links > span {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.footer__input > span {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.footer__input > p {
+	margin: 13px 0 30px;
+	width: 213px;
 }

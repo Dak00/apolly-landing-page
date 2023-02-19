@@ -12,8 +12,8 @@
 	<link rel="stylesheet" href="../../assets/styles/utility.css">
 	<link rel="stylesheet" href="home.global.css">
 	<!-- Adaptive CSS-->
-	<link rel="stylesheet" media="screen and (min-width: 575.98px)" href="home.mobile.css">
-	<link rel="stylesheet" media="screen and (min-width: 762.98px)" href="home.tablet.css">
+	<link rel="stylesheet" media="screen and (min-width: 374.98px)" href="home.mobile.css">
+	<link rel="stylesheet" media="screen and (min-width: 767.98px)" href="home.tablet.css">
 	<link rel="stylesheet" media="screen and (min-width: 1199.98px)" href="home.desktop.css">
 </head>
 
@@ -42,7 +42,7 @@
 				<a class='on desktop' href="#">Home</a>
 				<a class='on desktop' href="#">About</a>
 				<a class='on desktop' href="#">Features</a>
-				<div class="on tablet nav__burger">
+				<div class="on tablet on mobile nav__burger">
 					<span></span>
 					<span></span>
 					<span></span>
@@ -166,8 +166,11 @@
 			<div class="footer__right">
 				<div class="footer__logo">
 					<span>LOGO</span>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae. Est tellus vitae,
+					<p class='on desktop'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+						Est tellus vitae,
 						nullam lobortis enim.</p>
+					<p class='on tablet'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra nunc ante velit vitae.
+					</p>
 					<div class="card__icons">
 						<img src="../../assets/icons/facebook.svg" alt="">
 						<div class="vline"></div>

@@ -1,10 +1,10 @@
-@media screen and (min-width: 575.98px) {
+@media screen and (min-width: 374.98px) {
 	.on.tablet,
 	.on.desktop {
 		display: none;
 	}
 	.on.mobile {
-		display: inherit;
+		display: initial;
 	}
 }
 
@@ -14,7 +14,7 @@
 		display: none;
 	}
 	.on.tablet {
-		display: inherit;
+		display: initial;
 	}
 }
 
@@ -24,6 +24,6 @@
 		display: none;
 	}
 	.on.desktop {
-		display: inherit;
+		display: initial;
 	}
 }

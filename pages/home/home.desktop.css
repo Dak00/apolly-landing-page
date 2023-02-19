@@ -8,7 +8,9 @@ header {
 	padding-top: 35px;
 	padding-bottom: 83px;
 }
-
+.prenav {
+	display: flex;
+}
 nav a {
 	font-weight: 600;
 	font-size: 20px;
@@ -26,16 +28,11 @@ nav a {
 	color: #5956e9;
 	margin-left: 47px;
 }
-.nav__right > a:last-of-type {
-	padding: 12px 15px 8px 16px;
-	background-color: #5956e9;
-	border-radius: 5px;
-	color: white;
-}
 
 .hero {
 	gap: 174px;
 	margin-top: 82px;
+	flex-direction: row;
 }
 
 .hero > img {
@@ -48,6 +45,7 @@ nav a {
 }
 
 .hero__text > p:first-of-type {
+	font-weight: 700;
 	font-size: 48.83px;
 	line-height: 63px;
 }
@@ -68,7 +66,19 @@ section {
 	padding-bottom: 100px;
 }
 
+.section__text > h1 {
+	font-weight: 700;
+	font-size: 31.25px;
+	line-height: 47px;
+}
+
+.section__text > p {
+	width: 450px;
+	margin: 18px 0 65px;
+}
+
 .team__cards {
+	flex-direction: row;
 	gap: 30px;
 	margin-bottom: 100px;
 }
@@ -103,7 +113,42 @@ section {
 	gap: 33px;
 }
 
+.blog__cards {
+	gap: 30px;
+}
+
+.blog__text {
+	padding: 40px 18px;
+}
+
+.blog__text > p:last-of-type {
+	margin: 10px 0 28px;
+}
+
 footer {
 	padding-top: 98px;
 	padding-bottom: 18px;
+}
+
+.footer__right {
+	gap: 66px;
+}
+
+.footer__logo > p {
+	width: 334px;
+	margin-bottom: 40px;
+}
+
+.footer__links > span {
+	font-size: 25px;
+	line-height: 38px;
+}
+
+.footer__input > span {
+	font-size: 25px;
+	line-height: 38px;
+}
+
+.footer__input > p {
+	margin: 11px 0 33px;
 }
